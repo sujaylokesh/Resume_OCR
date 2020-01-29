@@ -45,6 +45,7 @@ def submit(request):
             output.write(re.sub('(^| )e( |$)','-> ', line))
         output.close()
         input1.close()
+        os.remove(input1)
     return render(request,'photos/drag_and_drop_upload/index.html',{'alert_flag' : True })
 
 def viewfiles(request):

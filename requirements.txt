@@ -1,1 +1,4 @@
 Django==1.10.3
+pytesseract
+pdf2image
+pillow
