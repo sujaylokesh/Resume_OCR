@@ -23,3 +23,5 @@ To begin processing click on the Start Processing button
 Once Completed, To view the data click on the View Data button
 
 Click on the Home button on the navigation bar to reset the page.
+
+Output is in the Output.txt file
